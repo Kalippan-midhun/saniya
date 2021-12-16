@@ -5,6 +5,6 @@ WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Asia/Kolkata
 RUN npm install supervisor -g
 RUN yarn install --no-audit
-RUN git clone https://github.com/Kalippan-midhun/htms
+RUN git clone https://github.com/Kalippan-minnu/html
 
 CMD ["node", "bot.js"]
